@@ -1,12 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
+import Test from './Test';
+import Header from './Header';
 import reportWebVitals from './reportWebVitals';
+
+import {BrowserRouter, Link, Route} from 'react-router-dom'
+/*
+    <BrowserRouter>
+      <Route exact path= '/' component= {Test} />
+    </BrowserRouter>
+*/
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <Test/>
   </React.StrictMode>,
   document.getElementById('root')
 );
