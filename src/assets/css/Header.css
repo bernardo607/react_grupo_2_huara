@@ -5,52 +5,46 @@
 }
 
 
-a {
+a{
     text-decoration: none;
-    color: rgb(114, 141, 117);
+    font-family: nexa-light;
+    font-weight: bold;
+    color: #332f2c;
+    font-size: 20px;
 }
 
 i {
-    color: rgb(114, 141, 117);
+    color: #332f2c;
+    font-size: 20px;
 }
-
+div.administrador{
+    margin: auto;
+    margin-right: 5%;
+}
 ul {
     list-style-type: none;
 }
 
-.box-header {
+div.box-header {
     position: sticky;
     top: 0;
     max-width: 100%;
-    width: 100%;
     height: auto;
     display: flex;
-    background-color: rgb(250, 212, 184);
-
+    background-color: rgb(114,141,117);
     justify-content: space-between;
     flex-wrap: wrap;
 
 }
 
-.logo-header {
-    display: flex;
-    width: 50%;
-    margin-left: 10px;
-}
+
 .logo-header-img {
     display: flex;
-    width: 70%;
+    max-width: 50%
 }
 
 
-.hamburger-header {
-    font-size: 30px;
-    border-radius: 8px;
-    align-items: center;
-    display: flex;
-    text-align: center;
-    margin: auto;
-}
+
 
 .nav-bar-header {
     display: none;
@@ -75,15 +69,6 @@ ul {
     .logo-header-img {
         display: flex;
         width: 70%;
-    }
-
-    .hamburger-header {
-        font-size: 30px;
-        border-radius: 8px;
-        align-items: center;
-        display: flex;
-        text-align: center;
-        margin: auto;
     }
 
 
@@ -129,9 +114,7 @@ ul {
     font-size: 24px;
 }
 
-    .hamburger-header {
-        display: none;
-    }
+   
 }
 @media (min-width: 950px){
 .nav-bar-header{
