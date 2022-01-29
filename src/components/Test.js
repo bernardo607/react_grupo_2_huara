@@ -20,7 +20,9 @@ useEffect ( () => {
 
 <div> 
         <article  className="product" >
-        {   productos.map( p => (                              
+      
+        {   productos.map( p => (   
+                                     
                 <div className= "product-box" key={p.id}>
                     
                     <div className="box-description">
@@ -28,6 +30,7 @@ useEffect ( () => {
                     <h4 className="descripcion">{p.name}  </h4>
                     <h4 className="descripcion">{p.price}</h4>
                     <h4 className="descripcion">{p.category}</h4>
+                    <h4 className="titulo">Listado de productos</h4>
                     </div>    
                 </div> 
         ))}
