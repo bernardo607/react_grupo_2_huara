@@ -37,6 +37,11 @@ div.buscar-titulo{
     padding: 5px;
 }
 
+.titulo{
+    color: black;
+    font-size:20 px;
+}
+
 button.boton-buscar{
     padding: 5px;
     font-family: nexa-light;
