@@ -1,0 +1,66 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+
+    
+  }
+  
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  th, td {
+    padding: 10px;
+    color: black;
+    text-align: center;
+  }
+  
+  th {
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+  
+  tbody td {
+    text-align: center;
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: coral;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #666;
+  }
+  
+
+  
+  table {
+    background-color: #ebebeb;
+    width: 80%;
+    margin: auto;
+  }
+
+  caption{
+    font-family: nexa-bold;
+    color: black;
+  }

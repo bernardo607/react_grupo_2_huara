@@ -1,5 +1,5 @@
 import React from 'react';
-import Test from './Test';
+import ProductsTable from './ProductsTable';
 import Header from './Header';
 import BarraLateral from './BarraLateral';
 import ContentProducts from './ContentProducts';
@@ -17,7 +17,7 @@ function App() {
     <ContentProducts />
     <UltimoUser />
     <PanelCategorias />
-    <Test />
+    <ProductsTable />
     </React.Fragment>
   );
 }
