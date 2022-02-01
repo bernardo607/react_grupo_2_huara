@@ -12,7 +12,7 @@ function BarraLateral(){
                 
                 <li className="dash">
                     <Link className="nav-link" to="/">
-                    <span>  Dashboard - Huara Chocolates</span></Link>
+                    <span>Huara Chocolates</span></Link>
                 </li>
 
                 

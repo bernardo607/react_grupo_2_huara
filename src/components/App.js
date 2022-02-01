@@ -13,13 +13,12 @@ function App() {
   return (
     <React.Fragment>
     <Header />
+    <BarraLateral />
     <ContentProducts />
     <UltimoUser />
     <PanelCategorias />
     <Test />
-    <BarraLateral />
-    
-  </React.Fragment>
+    </React.Fragment>
   );
 }
 
