@@ -1,7 +1,7 @@
 import React from 'react';
 import SmallCard from './SmallCard';
 import { useState, useEffect } from 'react';
-
+import '../assets/css/SmallCard.css'
 
 
 
@@ -42,7 +42,7 @@ function ContentProducts() {
       return (
 
     
-        <div >
+        <div className="triple-panel">
             
             {array.map( (total, i) => {
 

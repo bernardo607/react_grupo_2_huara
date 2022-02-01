@@ -12,6 +12,7 @@ function LastUser(props){
                             <div className="black">Nombre de usuario: {props.name}</div>
                             <div className="black">Apellido de usuario: {props.last_name}</div>
                             <div className="black">Email de usuario: {props.email}</div>
+                            <div className="black">Imagen de usuario: {props.image_url}</div>
                         </div>
                        
                     </div>

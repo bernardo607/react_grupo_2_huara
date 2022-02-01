@@ -4,18 +4,12 @@ import '../assets/css/SmallCard.css'
 
 function SmallCard(props){
     return(
-        <div className="col-md-4 mb-4">
-            <div>
-                <div className="card-body">
-                    <div className="row no-gutters align-items-center">
-                        <div className="col mr-2">
+        <div className="panel">
+                            
                             <div className="black"> {props.title}</div>
+
                             <div className="black">{props.total}</div>
-                        </div>
-                       
-                    </div>
-                </div>
-            </div>
+                            
         </div>
         
     )
