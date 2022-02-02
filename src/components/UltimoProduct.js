@@ -1,31 +1,31 @@
 import { useState, useEffect } from 'react';
 import React from 'react';
-import LastUser from './LastUser';
+import LastProduct from './LastProduct';
 
 
 
-function UltimoUser() {
+function UltimoProduct() {
   
-const [users, setUsers] = useState([])
+const [products, setProducts] = useState([])
 
 useEffect ( () => {
-    fetch('http://localhost:3001/api/users/')
+    fetch('http://localhost:3001/api/products/')
     .then(response => (response.json()))
-    .then(data => {setUsers(data.users)} )
+    .then(data => {setProducts(data.products)} )
     .catch(error => console.error(error))
   }, []);
 
-  let ultimo = [users[users.length - 1]]
+  let ultimo = [products[products.length - 1]]
  
-  console.log(ultimo)
+  
   return (
 
 
-<div> 
+<div className="padre-last-product"> 
        
          {   ultimo.map((u, i) => {    
            
-           return <LastUser {...u} key={i}/>
+           return <LastProduct {...u} key={i}/>
               
                        
                 
@@ -40,4 +40,4 @@ useEffect ( () => {
  
   }
 
-export default UltimoUser;
+export default UltimoProduct;

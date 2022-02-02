@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.padre-last-product{
+    display: flex;
+    position:relative;
+}
+
+.hijo-last-product{
+    position: absolute;
+    left: 300px;
+    top: -510px;
+}
+
+.imagen-last-product{
+    max-width: 40%;
+}

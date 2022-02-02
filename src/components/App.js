@@ -3,10 +3,10 @@ import ProductsTable from './ProductsTable';
 import Header from './Header';
 import BarraLateral from './BarraLateral';
 import ContentProducts from './ContentProducts';
-import UltimoUser from './UltimoUser';
+import UltimoProduct from './UltimoProduct';
 import PanelCategorias from './PanelCategorias';
 //import NotFound from './NotFound';
-//import { Route, BrowserRouter } from 'react-router-dom'
+//import { Route, BrowserRouter, } from 'react-router-dom'
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
     <Header />
     <BarraLateral />
     <ContentProducts />
-    <UltimoUser />
+    <UltimoProduct />
     <PanelCategorias />
     <ProductsTable />
     </React.Fragment>

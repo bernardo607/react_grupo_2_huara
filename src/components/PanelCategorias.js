@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../assets/css/PanelCategorias.css'
 import { useState, useEffect } from 'react';
 import PanelCat from './PanelCat';
 
@@ -23,7 +23,7 @@ function PanelCategorias() {
       return (
 
     
-        <div >
+        <div className="padre-panel" >
             
             {category.map( (cat, i) => {
 
