@@ -23,31 +23,31 @@ function BarraLateral(){
 
                 <div className="listado">
                 <li className="nav-item">
-                <Link className="nav-link" to="/GenresInDb">
+                <Link className="nav-link" to="/totales">
                         <i className="fas fa-fw fa-folder"></i>
-                        <span>  Pages</span>
+                        <span>  Panel</span>
                     </Link>
                 </li>
                 <br></br>
                 <li className="nav-item">
-                <Link className="nav-link" to="/search">
+                <Link className="nav-link" to="/ultimo">
                         <i className="fas fa-fw fa-folder"></i>
-                        <span>  Buscador</span>
+                        <span>  Last item</span>
                     </Link>
                 </li>
                 <br></br>
                 
                 <li className="nav-item">
-                    <Link className="nav-link" to="/LastMovieInDb">
+                    <Link className="nav-link" to="/categorias">
                         <i className="fas fa-fw fa-chart-area"></i>
-                        <span>  Charts</span></Link>
+                        <span>  Categorías</span></Link>
                 </li>
                 <br></br>
                 
                 <li className="nav-item nav-link">
-                <Link className="nav-link" to="/charts">
+                <Link className="nav-link" to="/productos">
                         <i className="fas fa-fw fa-table"></i>
-                        <span>  Tables</span></Link>
+                        <span>  Productos</span></Link>
                 </li>
                 <br></br>
                 </div>

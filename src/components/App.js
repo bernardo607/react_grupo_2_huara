@@ -23,3 +23,15 @@ function App() {
 }
 
 export default App;
+
+
+/*<Router>
+    <Header />
+    <BarraLateral/>
+    <Route path='/totales' component={ContentProducts} />
+    <Route path='/ultimo' component={UltimoUser} />
+    <Route path='/categorias' component={PanelCategorias} />
+    <Route path='/productos' component={ProductsTable} />
+    <Route  component={NotFound} />
+    
+    </Router>*/
