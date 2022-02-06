@@ -5,19 +5,25 @@ import BarraLateral from './BarraLateral';
 import ContentProducts from './ContentProducts';
 import UltimoProduct from './UltimoProduct';
 import PanelCategorias from './PanelCategorias';
-//import NotFound from './NotFound';
-//import { Route, BrowserRouter, } from 'react-router-dom'
-
+import NotFound from './NotFound';
+import Wrapper from './Wrapper';
+import Footer from './Footer';
+import { Route, Routes, } from 'react-router-dom'
 
 function App() {
   return (
     <React.Fragment>
     <Header />
     <BarraLateral />
-    <ContentProducts />
-    <UltimoProduct />
-    <PanelCategorias />
-    <ProductsTable />
+    <Routes>
+    <Route path='*' element={<NotFound/>}></Route>
+    <Route exact path='/' element={<Wrapper/>}></Route>
+    <Route path='/totales' element={<ContentProducts/>} ></Route>
+    <Route path='/ultimo' element={<UltimoProduct/>}></Route>
+    <Route path='/categorias' element={<PanelCategorias/>}></Route>
+    <Route path='/productos' element={<ProductsTable/>}></Route>
+    </Routes>
+    <Footer/>
     </React.Fragment>
   );
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import logoHuara from '../assets/images/logo-texto-cromatico.PNG'
+import logoHuara from '../assets/images/huara-blanco-PhotoRoom.png'
 import '../assets/css/Header.css'
 import {Link} from 'react-router-dom';
 
@@ -10,7 +10,7 @@ function Header() {
 <header>
     <div className="box-header">
         <a className="logo-header">
-           <img src= {logoHuara} alt="logo-huara" className="logo-header-img"/>
+        <Link  to="/"><img src= {logoHuara} alt="logo-huara" className="logo-header-img"/></Link>
         </a>
         
         

@@ -5,23 +5,18 @@ import '../assets/css/LastProduct.css'
 function LastProduct(props){
     return(
         <div className="hijo-last-product">
-            <div>
-                <div className="card-body">
-                    <div className="row no-gutters align-items-center">
-                        <div className="col mr-2">
-                        <div className="black">
+            
+                        <div className="black ultimo-prod">
                                  <img src={props.image} alt='imagen producto' className="imagen-last-product"/> 
-                            </div>
-                            <div className="black"> Producto ID: {props.id}</div>
-                            <div className="black">Nombre: {props.name}</div>
-                            <div className="black">Descripción: {props.description}</div>
-                            <div className="black">Precio: {props.price}</div>                     
                             
+                            <div className="descripcion">
+                            <div className="black desc-dash"> Producto ID: {props.id}</div>
+                            <div className="black desc-dash">Nombre: {props.name}</div>
+                            <div className="black desc-dash">Descripción: {props.description}</div>
+                            <div className="black desc-dash">Precio: {props.price}</div>                     
+                            </div>
                         </div>
-                       
-                    </div>
-                </div>
-            </div>
+                        
         </div>
         
     )

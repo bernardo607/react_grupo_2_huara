@@ -23,7 +23,7 @@ function PanelCategorias() {
       return (
 
     
-        <div className="padre-panel" >
+        <div className="padre-panel"  >
             
             {category.map( (cat, i) => {
 

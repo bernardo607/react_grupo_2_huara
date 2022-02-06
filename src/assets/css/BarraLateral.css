@@ -6,17 +6,16 @@
 i{
     color:rgb(250, 212, 184);;
 }
+
 ul.navbar-left{
-    margin-left: 5px;
+
     background-color:#332f2c;
+    max-width:20%;
+    margin-right:0;
     
 }
 
-div.barra-lat{
-    max-height: 100vh;
-    background-color: #332f2c;
-    max-width: 20%;
-}
+
 
 li.dash{
     padding: 20px;
