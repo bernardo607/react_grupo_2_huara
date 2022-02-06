@@ -9,7 +9,7 @@ a{
     text-decoration: none;
     font-family: nexa-light;
     font-weight: bold;
-    color: #332f2c;
+    color: white;
     font-size: 20px;
 }
 
@@ -37,10 +37,9 @@ div.box-header {
 
 }
 
-
 .logo-header-img {
     display: flex;
-    max-width: 10px;
+    max-width: 80%
 }
 
 
@@ -52,72 +51,3 @@ div.box-header {
 
 
 
-@media (min-width: 360px) {
-
-    .box-header{
-        display: flex;
-        background-color: rgb(250, 212, 184);
-
-
-    }
-
-    .logo-header {
-        display: flex;
-        width: 40%;
-        margin-left: 10px;
-    }
-    .logo-header-img {
-        display: flex;
-        width: 70%;
-    }
-
-
-    .nav-bar-header {
-        display: none;
-
-    }
-
-}
-
-@media (min-width: 768px) {
-    .box-header {
-        display: flex;
-        background-color: rgb(250, 212, 184);
-
-
-
-    }
-
-    .logo-header {
-        display: flex;
-        width: 15%;
-        margin-left: 10px;
-    }
-    .logo-header-img {
-        display: flex;
-        width: 100%;
-    }
-
-    .nav-bar-header {
-        width: 80%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: flex-end;
-        font-size: 21px;
-        flex-wrap: nowrap;
-        padding-bottom: 10px;
-       align-items: flex-end;
-       font-size: 90%;
-       transition: all 2s;
-    }
-.nav-bar-header :hover{
-    font-size: 24px;
-}
-
-   
-}
-@media (min-width: 950px){
-.nav-bar-header{
-    font-size: 100%;
-}
-}

@@ -5,11 +5,9 @@ import '../assets/css/BarraLateral.css'
 function BarraLateral(){
     return(
         <React.Fragment>
-            <div class="barra-lat">
-            <ul className="navbar-left" id="accordionSidebar">
+            <div className="barraLateral">
+            <ul className="navbar-left">
 
-               
-                
                 <li className="dash">
                     <Link className="nav-link" to="/">
                     <span>Huara Chocolates</span></Link>

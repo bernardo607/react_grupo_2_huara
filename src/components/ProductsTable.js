@@ -20,11 +20,12 @@ useEffect ( () => {
 
   return (
 
-
-  <table summary="Los grupos de música punk más famosos del Reino Unido">
+  
+  <table >
     <caption>
-      Los mejores chocolates
+      LISTADO DE PRODUCTOS
     </caption>
+    
     <thead>
       <tr>
         <th scope="col">Nombre</th>

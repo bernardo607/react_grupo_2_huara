@@ -24,7 +24,7 @@ table {
   
   th, td {
     padding: 10px;
-    color: black;
+    color: rgb(114,141,117);
     text-align: center;
   }
   
@@ -45,11 +45,11 @@ table {
   }
 
   tbody tr:nth-child(odd) {
-    background-color: coral;
+    background-color: rgb(250,212,184);
   }
   
   tbody tr:nth-child(even) {
-    background-color: #666;
+    background-color: rgb(255, 196, 217);
   }
   
 
@@ -58,9 +58,12 @@ table {
     background-color: #ebebeb;
     width: 80%;
     margin: auto;
+
   }
 
   caption{
     font-family: nexa-bold;
-    color: black;
+    color: rgb(114,141,117);
   }
+
+ 
