@@ -9,12 +9,10 @@ import '../assets/css/Wrapper.css';
 function Wrapper(){
     return(
         <React.Fragment>
-            <body>
             <ContentProducts/>
             <UltimoProduct/>
-            <PanelCategorias/>
             <ProductsTable/>
-            </body>
+            <PanelCategorias/>
         </React.Fragment>
     )
 }
